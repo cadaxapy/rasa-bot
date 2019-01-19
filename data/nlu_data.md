@@ -72,6 +72,7 @@
 ## intent:weather
 - What is weather in [Bishkek](city)
 - Weather in [Naryn](city)
+- weather in [Bangkok](city)
 - Какая погода в [London](city)
 - what's the weather in [Berlin](city)
 - what's the weather in [Moscow](city)
@@ -83,11 +84,8 @@
 - how's the weather in [Osh](city)
 - hows the weather in [Pekin](city)
 
-
-
-
 ## intent:joke
-- расскажи какую ни будь шутку ?
+- расскажи каtensorflow_embeddingкую ни будь шутку ?
 - Я хотел бы услышать шутку
 - Расскажи мне шутку
 - Шутка, пожалуйста
@@ -107,6 +105,21 @@
 - translate me [table](word) to [kyrgyz](lang)
 - translate me please [window](word) to [french](lang)
 - translate word [tea](word) to [polish](lang)
+- translate me plz [spoon](word) to [romanian](lang)
 - translate me [mouse](word) to [korean](lang)
 - translate me [banana](word) to [turkish](lang)
 - what is [laptop](word) in [japanese](lang)
+
+## intent:wiki
+- what u know about [bishkek](wiki_word)
+- do u know what is [python](wiki_word)
+- give me information about [acer](wiki_word)
+- show me info about [xiaomi](wiki_word)
+- what is [apple](wiki_word)
+- what you know about [microsoft](wiki_word)
+- give me some information about [starbucks](wiki_word)
+- tell me what is [cola](wiki_word)
+- give me information about [dell](wiki_word)
+- show me information about [asus](wiki_word)
+- show me information about [auca](wiki_word)
+- information about [namba](wiki_word)

@@ -7,14 +7,18 @@ intents:
 - name
 - weather
 - translate
+- wiki
 entities:
 - name
 - city
 - word
 - lang
+- wiki_word
 
 
 slots:
+  wiki_word:
+    type: text
   name:
     type: text
   city: 
@@ -33,6 +37,7 @@ actions:
 - action_joke
 - action_weather
 - action_translate
+- action_wiki
 
 templates:
   utter_name:
