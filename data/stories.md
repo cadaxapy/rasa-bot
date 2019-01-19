@@ -33,3 +33,48 @@
  - utter_thanks
 * goodbye
  - utter_goodbye 
+ 
+ ## story_born_01
+* origin
+ - utter_origin
+* enter_data{"location": "Ош"}
+- utter_great
+## story_dialog
+* greet
+- utter_name
+
+* name
+- utter_greet
+
+* how_are_you
+- utter_good 
+
+* user_joking
+- utter_laugh
+
+* thanks
+- utter_welcome
+
+* age
+- utter_age
+
+* compliment
+- utter_thanks
+
+* insult
+- utter_bye
+
+* workoreduc
+- utter_work
+
+* hobby
+- utter_hobby
+
+* good
+- utter_good
+
+* bad
+- utter_why
+
+* myage
+- utter_confirmed

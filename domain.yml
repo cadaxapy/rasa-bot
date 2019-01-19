@@ -7,8 +7,21 @@ intents:
 - name
 - weather
 - translate
+- great
+- origin
+- confirmed
+- good
+- laugh
+- welcome
+- age
+- bye
+- work
+- hobby
+- why
+- confirmed
 entities:
 - name
+- location
 - city
 - word
 - lang
@@ -23,16 +36,28 @@ slots:
     type: text
   lang:
     type: text
-
+  location:
+    type: text
 
 actions:
 - utter_name
 - utter_thanks
 - utter_greet
 - utter_goodbye
+- utter_great
+- utter_origin
 - action_joke
 - action_weather
 - action_translate
+- utter_good
+- utter_laugh
+- utter_welcome
+- utter_age
+- utter_bye
+- utter_work
+- utter_hobby
+- utter_why
+- utter_confirmed
 
 templates:
   utter_name:
@@ -46,4 +71,36 @@ templates:
   
   utter_thanks:
   - text: "пожалуйста."
-  
+
+  utter_origin:
+  - text: 'Я родом из Таласа, ты?'
+
+  utter_great:
+  - text: '{location} - это красивое место'
+
+  utter_good:
+  - text: 'У меня все хорошо, спасибо, как у тебя?'
+
+  utter_laugh:
+  - text: 'Ахахахахаххах'
+
+  utter_welcome:
+  - text: 'Пожалуйста'
+
+  utter_age:
+  - text: 'Мне 25, а тебе сколько?'
+
+  utter_bye:
+  - text: 'Ты отвратителен, пока'
+
+  utter_work:
+  - text: 'Строю космические корабли хехе'
+
+  utter_hobby:
+  - text: 'Занимаюсь гимнастикой, люблю читать'
+
+  utter_why:
+  - text: 'Что случилось?'
+
+  utter_confirmed:
+  - text: 'Поняяятно'

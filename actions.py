@@ -26,6 +26,7 @@ class ActionJoke(Action):
         dispatcher.utter_message(joke)  # send the message back to the user
         return []
 
+
 class ActionWeather(Action):
     def name(self):
         # define the name of the action which can then be included in training stories
@@ -39,7 +40,7 @@ class ActionWeather(Action):
         return []
 
 
-class ActionWeather(Action):
+class ActionTranslate(Action):
     def name(self):
         # define the name of the action which can then be included in training stories
         return "action_translate"
