@@ -10,6 +10,7 @@ import json
 from rasa_core_sdk import Action
 from weather import Weather, Unit
 from googletrans import Translator
+import wikipedia
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +35,7 @@ class ActionWeather(Action):
 
     def run(self, dispatcher, tracker, domain):
         city = tracker.get_slot('city')
+        print(city)
         weather = json.loads(requests.get('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=16be1a7a58efb5cb152a9053a7c36422').text)
         print(weather['main'])
         dispatcher.utter_message("Weather in "+ city +" is " + str(weather['main']['temp']) + "C")  # send the message back to the user
@@ -55,3 +57,21 @@ class ActionTranslate(Action):
         print(translation)
         dispatcher.utter_message(translation.text)  # send the message back to the user
         return []
+
+class ActionWiki(Action):
+    def name(self):
+        # define the name of the action which can then be included in training stories
+        return "action_wiki"
+
+    def run(self, dispatcher, tracker, domain):
+        word = tracker.get_slot('wiki_word')
+        print(word)
+        info = ''
+        try:
+            info = wikipedia.summary(word, sentences=4, auto_suggest=False)
+        except wikipedia.exceptions.DisambiguationError as e:
+            info = wikipedia.summary(e.options[0])
+        
+        dispatcher.utter_message(info.partition('/n')[0])  # send the message back to the user
+        return []
+

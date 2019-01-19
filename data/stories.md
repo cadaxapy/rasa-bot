@@ -22,6 +22,9 @@
 ## story_translate
 * translate("word":"cat", "lang":"russian")
  - action_translate
+## story_wiki
+* wiki("wiki_word":"xiaomi")
+ - action_wiki
 ## story_joke_02
 * greet
  - utter_name

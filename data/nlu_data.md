@@ -70,16 +70,14 @@
 - можешь звать меня [John](name)
 
 ## intent:weather
+
 - Какая погода в [Bishkek](city)
 - Погода в [Naryn](city)
 - Хочу узнать погоду в [Pekin](city)
 - найти погоду в [Toronto](city)
 
-
-
-
 ## intent:joke
-- расскажи какую ни будь шутку ?
+- расскажи каtensorflow_embeddingкую ни будь шутку ?
 - Я хотел бы услышать шутку
 - Расскажи мне шутку
 - Шутка, пожалуйста
@@ -1590,4 +1588,20 @@
 - меня воспитал [Бишкек](location)
 - [Ысык-кол](location) в моем сердце
 - [Иссык-куль](location) на всегда
-- жуву в [Алматы](location)
+- живу в [Алматы](location)
+
+
+## intent:wiki
+- what u know about [bishkek](wiki_word)
+- do u know what is [python](wiki_word)
+- give me information about [acer](wiki_word)
+- show me info about [xiaomi](wiki_word)
+- what is [apple](wiki_word)
+- what you know about [microsoft](wiki_word)
+- give me some information about [starbucks](wiki_word)
+- tell me what is [cola](wiki_word)
+- give me information about [dell](wiki_word)
+- show me information about [asus](wiki_word)
+- show me information about [auca](wiki_word)
+- information about [namba](wiki_word)
+

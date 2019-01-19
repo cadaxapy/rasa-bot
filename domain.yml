@@ -19,15 +19,20 @@ intents:
 - hobby
 - why
 - confirmed
+- wiki
+
 entities:
 - name
 - location
 - city
 - word
 - lang
+- wiki_word
 
 
 slots:
+  wiki_word:
+    type: text
   name:
     type: text
   city: 
@@ -58,6 +63,8 @@ actions:
 - utter_hobby
 - utter_why
 - utter_confirmed
+- action_wiki
+
 
 templates:
   utter_name:
