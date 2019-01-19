@@ -1,73 +1,74 @@
 <!--- Make sure to update this training data file with more training examples from https://forum.rasa.com/t/rasa-starter-pack/704 --> 
 
 ## intent:goodbye <!--- The label of the intent --> 
-- Bye 			<!--- Training examples for intent 'bye'--> 
-- Goodbye
-- See you later
-- Bye bot
-- Goodbye friend
-- bye
-- bye for now
-- catch you later
-- gotta go
-- See you
-- goodnight
-- have a nice day
-- i'm off
-- see you later alligator
-- we'll speak soon
+- пока 			
+- Пока 			
+- Прощай
+- До скорого
+- Пока бот
+- До свидания друг
+- до свидания
+- а сейчас до свидания
+- увидимся позже
+- должен идти
+- Увидимся
+- доброй ночи
+- хорошего дня
+- я ухожу
+- Увидимся позже
+- мы скоро поговорим
 
 ## intent:greet
-- Hi
-- Hey
-- Hi bot
-- Hey bot
-- Hello
-- Good morning
-- hi again
-- hi folks
-- hi Mister
-- hi pal!
-- hi there
-- greetings
-- hello everybody
-- hello is anybody there
-- hello robot
+- Привет
+- привет
+- Привет бот
+- Эй, бот
+- Здравствуйте
+- Доброе утро
+- Привет еще раз
+- Привет народ
+- привет мистер
+- привет, приятель!
+- всем привет
+- Приветствую
+- всем привет
+- Привет, кто-нибудь там
+- привет робот
 
 ## intent:thanks
-- Thanks
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
+- Спасибо
+- Благодарю вас
+- Огромное спасибо
+- Спасибо, бот
+- Спасибо за это
+- ура
+- ура братан
+- хорошо спасибо!
+- отлично спасибо
+- большое спасибо за все
+- Спасибо за помощь
+- большое спасибо
+- удивительно, спасибо
+- хорошо, спасибо
+- круто спасибо
 
 ## intent:affirm
-- yes
-- yes sure
-- absolutely
-- for sure
-- yes yes yes
-- definitely
-
+- да
+- Да, конечно
+- абсолютно
+- наверняка
+- да да да
+- определенно
 
 ## intent:name
-- My name is [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
-- I am [Josh](name)
-- I'm [Lucy](name)
-- People call me [Greg](name)
+- Меня зовут [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
+- я [Josh](name)
+- зови меня [Lucy](name)
+- можешь звать [Greg](name)
 - It's [David](name)
-- Usually people call me [Amy](name)
-- My name is [John](name)
+- обычно ко мне обращаются [Amy](name)
+- можешь звать меня [John](name)
+<!--- 
 - You can call me [Sam](name)
 - Please call me [Linda](name)
 - Name name is [Tom](name)
@@ -75,6 +76,7 @@
 - I'm [Tracy](name)
 - Call me [Sally](name)
 - I am [Philipp](name)
+<<<<<<< HEAD
 - I am [Charlie](name)
 - I am [Elaman](name)
 
@@ -104,3 +106,20 @@
 - how is the weather in [Astana](city)
 - how's the weather in [Osh](city)
 - hows the weather in [Pekin](city)
+=======
+- I am [Charlie](name) -->
+
+
+## intent:joke
+- расскажи какую ни будь шутку ?
+- Я хотел бы услышать шутку
+- Расскажи мне шутку
+- Шутка, пожалуйста
+- Скажи мне, пожалуйста, шутку
+- Я хотел бы услышать шутку
+- Я хотел бы услышать шутку, пожалуйста
+- Можешь рассказать анекдоты?
+- Пожалуйста, скажи мне шутку
+- Мне нужно услышать шутку
+- шутку пожалуйста
+>>>>>>> da22fe1336c7cb8f576e7733ba1df884c1d66865
