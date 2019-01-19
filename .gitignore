@@ -3,3 +3,4 @@ env/
 
 rasa_core.log
 .idea
+models
