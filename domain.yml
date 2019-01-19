@@ -26,14 +26,14 @@ actions:
 
 templates:
   utter_name:
-  - text: "Hey there! Tell me your name."
+  - text: "Как тебя зовут ?"
 
   utter_greet:
-  - text: "Nice to you meet you {name}. How can I help?"
+  - text: "Очень приятно {name}. Я могу чем то помочь?"
 
   utter_goodbye:
-  - text: "Talk to you later!"
+  - text: "Поговорим пойже!"
   
   utter_thanks:
-  - text: "My pleasure."
+  - text: "пожалуйста."
   
