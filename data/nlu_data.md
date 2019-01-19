@@ -76,6 +76,7 @@
 - Call me [Sally](name)
 - I am [Philipp](name)
 - I am [Charlie](name)
+- I am [Elaman](name)
 
 
 ## intent:joke
@@ -89,3 +90,17 @@
 - Can you tell jokes?
 - Please tell me a joke
 - I need to hear a joke
+
+## intent:weather
+- What is weather in [Bishkek](city)
+- Weather in [Naryn](city)
+- Какая погода в [London](city)
+- what's the weather in [Berlin](city)
+- what's the weather in [Moscow](city)
+- what is the weather in [California](city)
+- what is the weather in [New Zealand](city)
+- whats the weather in [Dubai](city)
+- what is the weather like in [Almaty](city)
+- how is the weather in [Astana](city)
+- how's the weather in [Osh](city)
+- hows the weather in [Pekin](city)

@@ -5,14 +5,17 @@ intents:
 - deny
 - joke
 - name
-
+- weather
 
 entities:
 - name
+- city
 
 
 slots:
   name:
+    type: text
+  city: 
     type: text
 
 
@@ -22,6 +25,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- action_weather
 
 
 templates:

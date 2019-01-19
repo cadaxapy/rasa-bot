@@ -4,7 +4,7 @@
  
 ## story_goodbye
 * goodbye
- - utter_goodbye
+ - utter_goodbye  
 
 ## story_thanks
 * thanks
@@ -13,12 +13,12 @@
 ## story_name
 * name{"name":"Sam"}
  - utter_greet
- 
-
 ## story_joke_01
 * joke
  - action_joke
- 
+## story_weather
+* weather{"city":"Bishkek"}
+ - action_weather
 ## story_joke_02
 * greet
  - utter_name

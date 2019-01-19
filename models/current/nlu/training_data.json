@@ -1,0 +1,589 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Juste"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Josh"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Lucy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Lucy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Greg",
+            "entity": "name"
+          }
+        ],
+        "text": "People call me Greg"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "David",
+            "entity": "name"
+          }
+        ],
+        "text": "It's David"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Amy",
+            "entity": "name"
+          }
+        ],
+        "text": "Usually people call me Amy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "John",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is John"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ],
+        "text": "You can call me Sam"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Linda",
+            "entity": "name"
+          }
+        ],
+        "text": "Please call me Linda"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ],
+        "text": "Name name is Tom"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Richard"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Tracy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Tracy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Sally",
+            "entity": "name"
+          }
+        ],
+        "text": "Call me Sally"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Philipp",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Philipp"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Charlie"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Elaman",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Elaman"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell me a joke?"
+      },
+      {
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "A joke please"
+      },
+      {
+        "intent": "joke",
+        "text": "Tell me a joke please"
+      },
+      {
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "I would loke to hear a joke, please"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell jokes?"
+      },
+      {
+        "intent": "joke",
+        "text": "Please tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "I need to hear a joke"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Bishkek",
+            "entity": "city"
+          }
+        ],
+        "text": "What is weather in Bishkek"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Naryn",
+            "entity": "city"
+          }
+        ],
+        "text": "Weather in Naryn"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "Какая погода в London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "city"
+          }
+        ],
+        "text": "what's the weather in Berlin"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Moscow",
+            "entity": "city"
+          }
+        ],
+        "text": "what's the weather in Moscow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "California",
+            "entity": "city"
+          }
+        ],
+        "text": "what is the weather in California"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "New Zealand",
+            "entity": "city"
+          }
+        ],
+        "text": "what is the weather in New Zealand"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Dubai",
+            "entity": "city"
+          }
+        ],
+        "text": "whats the weather in Dubai"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Almaty",
+            "entity": "city"
+          }
+        ],
+        "text": "what is the weather like in Almaty"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Astana",
+            "entity": "city"
+          }
+        ],
+        "text": "how is the weather in Astana"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "Osh",
+            "entity": "city"
+          }
+        ],
+        "text": "how's the weather in Osh"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Pekin",
+            "entity": "city"
+          }
+        ],
+        "text": "hows the weather in Pekin"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
