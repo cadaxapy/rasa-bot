@@ -68,30 +68,6 @@
 - It's [David](name)
 - обычно ко мне обращаются [Amy](name)
 - можешь звать меня [John](name)
-<!--- 
-- You can call me [Sam](name)
-- Please call me [Linda](name)
-- Name name is [Tom](name)
-- I am [Richard](name)
-- I'm [Tracy](name)
-- Call me [Sally](name)
-- I am [Philipp](name)
-<<<<<<< HEAD
-- I am [Charlie](name)
-- I am [Elaman](name)
-
-
-## intent:joke
-- Can you tell me a joke?
-- I would like to hear a joke
-- Tell me a joke
-- A joke please
-- Tell me a joke please
-- I would like to hear a joke
-- I would loke to hear a joke, please
-- Can you tell jokes?
-- Please tell me a joke
-- I need to hear a joke
 
 ## intent:weather
 - What is weather in [Bishkek](city)
@@ -106,8 +82,8 @@
 - how is the weather in [Astana](city)
 - how's the weather in [Osh](city)
 - hows the weather in [Pekin](city)
-=======
-- I am [Charlie](name) -->
+
+
 
 
 ## intent:joke
@@ -122,4 +98,15 @@
 - Пожалуйста, скажи мне шутку
 - Мне нужно услышать шутку
 - шутку пожалуйста
->>>>>>> da22fe1336c7cb8f576e7733ba1df884c1d66865
+
+## intent:translate
+- Please, translate [cat](word) to [russian](lang)
+- translate [dog](word) to [english](lang)
+- can you translate [apple](word) to [german](lang)
+- translate pls [bottle](word) to [chinese](lang)
+- translate me [table](word) to [kyrgyz](lang)
+- translate me please [window](word) to [french](lang)
+- translate word [tea](word) to [polish](lang)
+- translate me [mouse](word) to [korean](lang)
+- translate me [banana](word) to [turkish](lang)
+- what is [laptop](word) in [japanese](lang)

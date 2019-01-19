@@ -9,7 +9,7 @@
 ## story_thanks
 * thanks
  - utter_thanks
- 
+
 ## story_name
 * name{"name":"Sam"}
  - utter_greet
@@ -19,6 +19,9 @@
 ## story_weather
 * weather{"city":"Bishkek"}
  - action_weather
+## story_translate
+* translate("word":"cat", "lang":"russian")
+ - action_translate
 ## story_joke_02
 * greet
  - utter_name

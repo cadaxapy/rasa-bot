@@ -6,16 +6,22 @@ intents:
 - joke
 - name
 - weather
-
+- translate
 entities:
 - name
 - city
+- word
+- lang
 
 
 slots:
   name:
     type: text
   city: 
+    type: text
+  word: 
+    type: text
+  lang:
     type: text
 
 
@@ -26,7 +32,7 @@ actions:
 - utter_goodbye
 - action_joke
 - action_weather
-
+- action_translate
 
 templates:
   utter_name:
